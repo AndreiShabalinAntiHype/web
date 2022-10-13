@@ -1,0 +1,5 @@
+<ul class="bad-cats" *ngFor = 'let key of badCats'>
+  <li class="el">
+    <app-cat-child (click) = delete_bad(key) [routerLink]="['/bad',badCats.indexOf(key)]" [url] = key> </app-cat-child>
+  </li>
+</ul>

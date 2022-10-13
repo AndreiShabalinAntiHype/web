@@ -1,0 +1,34 @@
+.containter {
+  max-width:800px;
+  margin:0 auto;
+  padding-top: 3rem;
+}
+#hidden-el {
+  display:none;
+}
+.nav {
+
+}
+.random {
+  margin: 20px 20px;
+  float: right;
+  display: inline-block;
+}
+.gc {
+  margin: 20px 20px;
+  text-align: left;
+  display: inline-block;}
+.bc {
+  margin: 20px 20px;
+  text-align: left;
+  display: inline-block;}
+
+a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}

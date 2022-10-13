@@ -1,0 +1,17 @@
+ <ul class="cat-list" *ngFor = 'let key of cats'>
+    <li class="el">
+      <app-cat-child  [url] = key></app-cat-child>
+      <div class = "buttons">
+        <button class="green-button" (click) = "addNewGoodCat(key)">
+          <div class = "button-content">
+            <i class="fa fa-thumbs-up">LOVE IT</i>
+          </div>
+        </button>
+        <button class="red-button" (click) = "addNewBadCat(key)">
+          <div class = "button-content">
+            <i class="fa fa-thumbs-down">NOPE IT</i>
+          </div>
+        </button>
+      </div>
+    </li>
+</ul>

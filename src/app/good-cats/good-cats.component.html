@@ -1,0 +1,6 @@
+<ul class="good-cats" *ngFor = 'let key of goodCats'>
+  <li class="el">
+    <app-cat-child (click) = delete_good(key) [url] = key></app-cat-child>
+  </li>
+
+</ul>
